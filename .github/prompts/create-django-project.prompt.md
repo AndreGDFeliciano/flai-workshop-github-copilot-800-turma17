@@ -1,6 +1,7 @@
 ---
 description: 'Create a Django project, start it, and run it'
 model: Claude Sonnet 4.5 (copilot)
+name: create-django
 ---
 
 Your task is to create the Django project 'octofit_tracker' in octofit-tracker/backend directory using the Python
