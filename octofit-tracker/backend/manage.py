@@ -20,3 +20,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+    print("potato")
+
+# Test commit for step 5
