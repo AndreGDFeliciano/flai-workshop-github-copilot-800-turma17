@@ -65,6 +65,7 @@ MIDDLEWARE = [
 if CODESPACE_NAME:
     CSRF_TRUSTED_ORIGINS = [f'https://{CODESPACE_NAME}-8000.app.github.dev']
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    USE_X_FORWARDED_HOST = True
 
 ROOT_URLCONF = 'octofit_tracker.urls'
 
